@@ -6,6 +6,9 @@
     <title> 宠之语 - PetCode </title>
     <link rel="icon" type="image/x-icon" href="favicon.png">
     <style>
+        html {
+          scroll-behavior: smooth;
+        }
         body {
             background-image: url('homepage.png');
             background-size: cover;
@@ -32,6 +35,17 @@
     <div class="container">
         <img src="./SCROLL-DOWN-button-kopie1.gif" alt="Animated GIF">
     </div>
+    <!-- harness -->
+    <div class="box" style="
+            height: 100px;
+            width: 120px;
+            background: rgba(0,0,0,0.0);
+            position: absolute;
+            top: 0;
+            left: 47vw;
+        " onclick="window.scrollBy(0, document.body.scrollWidth/2)">
+    </div>
+    <!-- team -->
     <div class="box" style="
             height: 100px;
             width: 120px;
@@ -41,15 +55,19 @@
             left: 59vw;
         " onclick="window.location = 'https://mp.weixin.qq.com/s/9kY7poS2YEHh_Ax1ePHWJw'">
     </div>
+    <!-- brand -->
     <div class="box" style="
             height: 100px;
             width: 120px;
             background: rgba(0,0,0,0.0);
             position: absolute;
             top: 0;
-            left: 69vw;
+            left: 70vw;
         " onclick="window.location = '/pet.html'">
     </div>
+
+
+
 </body>
 
 </html>
